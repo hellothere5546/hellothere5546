@@ -1,0 +1,284 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to bottom, rgb(209, 154, 51), grey);
+    color: #2c353e;
+    line-height: 1.6;
+    width: 100%;
+}
+div[id],section[id]{
+    scroll-margin-top: 70px;
+}
+
+.titill {
+    background-color: #1e252b; 
+    text-align: center;
+    padding: 40px 20px;
+    border-bottom: 5px solid #d4af37;
+}
+
+.titill h1 {
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    color: #f39c12;
+}
+
+
+.valmynd {
+    background-color: #181e23;
+    position: sticky;
+    top: 0px;
+}
+
+
+.valmynd ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.valmynd a {
+    display: block;
+    color: #e0e6ed;
+    text-decoration: none;
+    padding: 14px 22px;
+    font-weight: 600;
+}
+
+.valmynd a:hover {
+    background-color: #d4af37;
+    color: #181e23;
+}
+
+
+main {
+    padding: 25px 20px;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+
+.upplysingar {
+    background-color: #d4af37;
+    border-left: 6px solid #1e252b;
+    border-radius: 8px;
+    padding: 25px;
+    margin-bottom: 25px;
+}
+
+.upplysingar h2 {
+    color: #1e252b;
+    margin-bottom: 12px;
+    font-size: 1.8rem;
+    border-bottom: 2px solid #1e252b;
+    padding-bottom: 6px;
+}
+
+.upplysingar p {
+    margin-bottom: 12px;
+}
+
+
+.kafi {
+    background-color: #00838f;
+    border: 2px solid #1e252b;
+    border-top: 4px solid #1e252b;
+    border-radius: 8px;
+    padding: 22px;
+    margin-bottom: 25px;
+}
+
+.kafi h2 {
+    color: #1e252b;
+    margin-bottom: 12px;
+    font-size: 1.5rem;
+    border-bottom: 2px solid #1e252b;
+    padding-bottom: 6px;
+}
+
+.kafi p {
+    color: #ffffff;
+    margin-bottom: 12px;
+    font-size: 1rem;
+}
+.menu{
+    display: block;
+    position: sticky;
+    top: 50px;
+    width: 260px;
+    margin-left: 0;
+    width:fit-content;
+    background-color: #181e23;
+    border-radius: 0 0 5px 0;
+    
+    
+
+    
+}
+.menu ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+
+}
+.menu li{
+    width:100%;
+}
+
+.menu a, .menu a:visited{
+    display: block;
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left:10px;
+    padding-right:20px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    text-decoration: none;
+    background-color: #d4af3700;
+    color: white;
+    
+    
+}
+
+.menu a:hover{
+    border: 1px solid #181e23 ;
+    border-radius: 5px;
+    background-color: #d4af37;
+    color: #181e23;
+    padding-right:5px ;
+
+
+}
+.menu details {
+  position: relative;
+  width: 100%;
+  max-width: 300px;
+  color:white;
+  border-radius: 6px;
+}
+
+
+.menu summary {
+  padding: 10px 15px;
+  font-weight: bold;
+  cursor: pointer;
+  user-select: none;
+  list-style: none; 
+}
+
+a[href="#efst"]{
+    color:#1e252b;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+
+.mynd-rammi {
+    display: block;
+    margin: 25px 0;
+}
+
+.mynd-rammi img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border: 2px solid #1e252b;
+    border-radius: 8px;
+    box-shadow: 0 0 50px black;
+}
+
+
+footer {
+    background-color: #181e23;
+    color: #a0aec0;
+    text-align: center;
+    padding: 25px 20px;
+    margin-top: 40px;
+    border-top: 3px solid #d4af37;
+}
+
+.footer-info p {
+    margin: 6px 0;
+    line-height: 1.5;
+}
+
+
+.footer-info a {
+    color: #d4af37;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.footer-info a:hover {
+    text-decoration: underline;
+}
+
+.efst {
+    margin-top: 15px;
+}
+
+
+.footer-bottom {
+    margin-top: 20px;
+    padding-top: 15px;
+    border-top: 1px solid rgba(160, 174, 192, 0.2);
+    font-size: 0.9rem;
+}
+iframe {   
+    border-radius: 8px;
+    box-shadow: 0 0 50px black;
+    
+    
+}
+.map{
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 30px;
+
+}
+
+@media screen and (max-width: 48em) {
+    .valmynd ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    }
+    .menu{
+    position: static;
+    }
+    
+    
+    .valmynd {
+    
+    position: static;
+    
+}
+
+    
+
+    
+
+}
+
+@media screen and (min-width: 60em) {
+    main {
+        padding: 35px 20px;
+    }
+}
